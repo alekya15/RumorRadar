@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-color: #0b0f17;
+    color: #e2e8f0;
+  }
+}
+
+.font-serif {
+  font-family: 'Instrument Serif', 'Newsreader', Georgia, serif;
+}
+
+.font-mono {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+/* Screenshot Color Palettes */
+.bg-radar-dark {
+  background-color: #0b0f17;
+}
+
+.bg-radar-card {
+  background-color: #121824;
+}
+
+.border-radar {
+  border-color: #1e293b;
+}
+
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0b0f17;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1e293b;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #334155;
+}
